@@ -1,0 +1,12 @@
+/* These are for the index.php swiper-slide carouse */
+/* And also This is for the contact and the typography breadcrumbs-custom design */
+.swiper-container .swiper-slide h1 ,.breadcrumbs-custom h3{
+    color: rgb(212, 194, 32);
+    font-weight: bolder;
+    font-style: italic;
+}
+.swiper-container .swiper-slide p{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-style: italic;
+}
