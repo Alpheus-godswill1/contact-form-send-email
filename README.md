@@ -1,8 +1,8 @@
 ## Note: This Wont Work When Sending Mail To Gmail.com 
-1. Only works when sending mail to an e-mail ending with a ```.net``` or a ```website email```
-2. Note also this can only work if your website hosting provider supports ```email alias``` 
+1. Only works when sending mail to an e-mail ending with a ```.net ``` or a ``` website email ```.
+2. Note also this can only work if your website hosting provider supports ``` email aliases ``` .
 
-# Getting Started With The User Contact Form Email Forwarding Using PHP
+# Getting Started With The User Contact Form Email Forwarding Using PHP.
 >>  stay foolish, stay hungry .
 
 ## Tools Needed
@@ -13,4 +13,4 @@
 
 ## Database Details For Contact Form Email Forwarding Using PHP
 
-1. Database name is called ```contact_email_send```.
+1. Database name is called ``` contact_email_send ```.
