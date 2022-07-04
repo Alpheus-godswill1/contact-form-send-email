@@ -1,5 +1,5 @@
-## Note: This Wont Work When Sending Mail To Gmail.com 
-1. Only works when sending mail to an e-mail ending with a ```.net ``` or a ``` website email ```.
+## Note: This wont work if you don't config the sendmail.ini and the php.ini files in the Xampp control panel 
+1. Only works when sending mail to an e-mail ending with a ```.net ``` or a ``` website email ```. If the configuration is done properly it will work.
 2. Note also this can only work if your website hosting provider supports ``` email aliases ``` .
 
 # Getting Started With The User Contact Form Email Forwarding Using PHP.
