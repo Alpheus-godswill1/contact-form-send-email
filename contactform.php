@@ -8,12 +8,12 @@ if (isset($_POST['submit'])) {
     $services =mysqli_real_escape_string($connect, $_POST['service']);
     $subject =mysqli_real_escape_string($connect, $_POST['subject']);
     $message = mysqli_real_escape_string($connect, $_POST['message']);
-    //preparing a PHP function 
+    //preparing a PHP function  called mail()
     //must have at least three parameters
     //1. Email which mail is to be sent to.
     //2. Subject of the mail
     //3. Message or content of the mail gotten from the person
-    $mailTo = "willyelv67@gmail.com";
+    $mailTo = "cuspeculiary1@gmail.com";
     $headers = "From: " . $mailFrom;
     $txt = "You have received an e-mail from ". $name .".\n\n".$message;
 
