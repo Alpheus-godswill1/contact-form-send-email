@@ -2,6 +2,8 @@
 1. Only works when sending mail to an e-mail ending with a ```.net ``` or a ``` website email ```. If the configuration is done properly it will work.
 2. Note also this can only work if your website hosting provider supports ``` email aliases ``` .
 
+## Make sure to follow the steps in the code-snippets.txt file 
+
 # Getting Started With The User Contact Form Email Forwarding Using PHP.
 >>  stay foolish, stay hungry .
 
