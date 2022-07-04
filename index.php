@@ -66,7 +66,7 @@
                     </div>
                   </div>
                 </div>
-                <button class="button button-secondary button-winona" name="submit" type="submit">Contact us</button>
+                <input class="button button-secondary button-winona" name="submit" type="submit" value="Submit">
               </form>
             </div>
             <div class="col-lg-4">
