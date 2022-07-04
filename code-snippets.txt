@@ -1,0 +1,50 @@
+Step 1
+======
+
+in C:\xampp\php\php.ini
+
+uncomment --> extension=php_openssl.dll
+
+Step 2
+======
+
+replace the following code: on the [mail function] in the php.ini file (in C:\xampp\php\php.ini),with the  code below remember to change the email_address to yours.
+
+[mail function]
+SMTP=smtp.gmail.com
+smtp_port=465
+sendmail_from=codeswagdemo@gmail.com
+sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
+
+
+Step 3
+======
+
+Go to the following file and replace its contents with the code under [sendmail]
+
+c:\xampp\sendmail\sendmail.ini
+
+
+
+[sendmail]
+smtp_server=smtp.gmail.com
+smtp_port=465
+error_logfile=error.log
+debug_logfile=debug.log
+auth_username=codeswagdemo@gmail.com
+auth_password=codeswag-demo2022
+force_sender=codeswagdemo@gmail.com
+
+
+Step 4
+======
+
+Allow Gmail access for less secure apps:
+
+https://support.google.com/accounts/answer/6010255
+
+
+Step 5
+======
+
+Restart xampp (Apache) to ensure new .ini configuration files are loaded
