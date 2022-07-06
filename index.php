@@ -22,7 +22,7 @@
           <div class="row row-60 justify-content-center">
             <div class="col-lg-8">
               <h4 class="text-spacing-25 text-transform-none">Get in Touch</h4>
-              <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact" method="post" action="./contactform.php">
+              <form class="" data-form-output="form-output-global" data-form-type="contact" method="post" action="./contactform.php">
                 <div class="row row-20 gutters-20">
                   <div class="col-md-6">
                     <div class="form-wrap">
@@ -66,7 +66,7 @@
                     </div>
                   </div>
                 </div>
-                <input class="button button-secondary button-winona" name="submit" type="submit" value="Submit">
+                <input class="button button-secondary" name="submit" type="submit" value="Submit"/>
               </form>
             </div>
             <div class="col-lg-4">
