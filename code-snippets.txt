@@ -13,7 +13,7 @@ replace the following code: on the [mail function] in the php.ini file (in C:\xa
 [mail function]
 SMTP=smtp.gmail.com
 smtp_port=465
-sendmail_from=codeswagdemo@gmail.com
+sendmail_from=email
 sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
 
 
@@ -31,9 +31,9 @@ smtp_server=smtp.gmail.com
 smtp_port=465
 error_logfile=error.log
 debug_logfile=debug.log
-auth_username=codeswagdemo@gmail.com
-auth_password=codeswag-demo2022
-force_sender=codeswagdemo@gmail.com
+auth_username=email
+auth_password=email password
+force_sender=email
 
 
 Step 4
